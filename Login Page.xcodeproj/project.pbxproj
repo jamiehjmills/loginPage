@@ -13,6 +13,9 @@
 		25E8F9F126A5323C0035F85D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25E8F9EF26A5323C0035F85D /* Main.storyboard */; };
 		25E8F9F326A5323D0035F85D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25E8F9F226A5323D0035F85D /* Assets.xcassets */; };
 		25E8F9F626A5323D0035F85D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25E8F9F426A5323D0035F85D /* LaunchScreen.storyboard */; };
+		25E8FA0026A541170035F85D /* LoggedIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E8F9FF26A541170035F85D /* LoggedIn.swift */; };
+		25E8FA0226A5421F0035F85D /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E8FA0126A5421F0035F85D /* SignUp.swift */; };
+		25E8FA0626A54C600035F85D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 25E8FA0526A54C600035F85D /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		25E8F9F226A5323D0035F85D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		25E8F9F526A5323D0035F85D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		25E8F9F726A5323D0035F85D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25E8F9FF26A541170035F85D /* LoggedIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedIn.swift; sourceTree = "<group>"; };
+		25E8FA0126A5421F0035F85D /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		25E8FA0526A54C600035F85D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +66,12 @@
 				25E8F9EB26A5323C0035F85D /* SceneDelegate.swift */,
 				25E8F9ED26A5323C0035F85D /* ViewController.swift */,
 				25E8F9EF26A5323C0035F85D /* Main.storyboard */,
+				25E8FA0126A5421F0035F85D /* SignUp.swift */,
 				25E8F9F226A5323D0035F85D /* Assets.xcassets */,
 				25E8F9F426A5323D0035F85D /* LaunchScreen.storyboard */,
 				25E8F9F726A5323D0035F85D /* Info.plist */,
+				25E8F9FF26A541170035F85D /* LoggedIn.swift */,
+				25E8FA0526A54C600035F85D /* GoogleService-Info.plist */,
 			);
 			path = "Login Page";
 			sourceTree = "<group>";
@@ -125,6 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				25E8F9F626A5323D0035F85D /* LaunchScreen.storyboard in Resources */,
+				25E8FA0626A54C600035F85D /* GoogleService-Info.plist in Resources */,
 				25E8F9F326A5323D0035F85D /* Assets.xcassets in Resources */,
 				25E8F9F126A5323C0035F85D /* Main.storyboard in Resources */,
 			);
@@ -139,7 +149,9 @@
 			files = (
 				25E8F9EE26A5323C0035F85D /* ViewController.swift in Sources */,
 				25E8F9EA26A5323C0035F85D /* AppDelegate.swift in Sources */,
+				25E8FA0026A541170035F85D /* LoggedIn.swift in Sources */,
 				25E8F9EC26A5323C0035F85D /* SceneDelegate.swift in Sources */,
+				25E8FA0226A5421F0035F85D /* SignUp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
